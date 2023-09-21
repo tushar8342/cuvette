@@ -12,22 +12,23 @@ MongoDB: Install and configure MongoDB on your system. You can download it from 
 
 Twilio Account: Create a Twilio account and set up your API credentials. You will need your Twilio Account SID, Auth Token, and a Twilio phone number to send OTPs via SMS.
 
-Installation
-Clone the repository to your local machine:
+## Installation
 
-bash
-Copy code
-git clone <repository-url>
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone <https://github.com/tushar8342/cuvette>
+
+
+
 Change to the project directory:
-
-bash
-Copy code
+```bash
 cd user-registration-otp
-Install the project dependencies:
 
-bash
-Copy code
+Install the project dependencies:
+```bash
 npm install
+
 Create a .env file in the project root directory and add your environment variables:
 
 env
