@@ -17,22 +17,23 @@ Twilio Account: Create a Twilio account and set up your API credentials. You wil
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <https://github.com/tushar8342/cuvette>
+   git clone https://github.com/tushar8342/cuvette
 
 
 
-Change to the project directory:
-```bash
-cd user-registration-otp
+2.Change to the project directory:
+    ```bash
+    cd user-registration-otp
 
 Install the project dependencies:
-```bash
-npm install
+
+    ```bash
+    npm install
 
 Create a .env file in the project root directory and add your environment variables:
 
 env
-Copy code
+
 # MongoDB connection string
 MONGODB_URI=mongodb://localhost:27017/your-database-name
 
