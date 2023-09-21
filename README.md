@@ -19,14 +19,11 @@ Twilio Account: Create a Twilio account and set up your API credentials. You wil
    ```bash
    git clone https://github.com/tushar8342/cuvette
 
-
-
-2.Change to the project directory:
+2. Change to the project directory:
     ```bash
     cd user-registration-otp
 
-Install the project dependencies:
-
+3. Install the project dependencies:
     ```bash
     npm install
 
